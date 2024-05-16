@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cafe Management System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: brown;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .container {
+            margin: 20px;
+        }
+
+        .section {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .inventory-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .inventory-item {
+            display: flex;
+            justify-content: space-between;
+            margin: 5px 0;
+        }
+
+        .inventory-item label {
+            width: 40%;
+        }
+
+        .button {
+            background-color: brown;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Cafe Management System</h1>
+    </header>
+
+    <div class="container">
+        <div class="section">
+            <h2>Inventory Management</h2>
+            <ul class="inventory-list">
+                <li class="inventory-item">
+                    <label>Item 1:</label>
+                    <span>10 units</span>
+                </li>
+                <li class="inventory-item">
+                    <label>Item 2:</label>
+                    <span>15 units</span>
+                </li>
+                <!-- Add more items here -->
+            </ul>
+            <button class="button">Add Item</button>
+        </div>
+    </div>
+</body>
+</html>
